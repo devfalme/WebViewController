@@ -1,0 +1,19 @@
+/* 
+  WebViewLocalized.strings
+  WebViewConterllor
+
+  Created by devfalme on 2019/2/26.
+  Copyright © 2019 devfalme. All rights reserved.
+*/
+"Backward" = "Backward";
+"Forward" = "Forward";
+"History" = "History";
+"Home" = "Home";
+"Stop" = "Stop";
+"Menu" = "Menu";
+"Error" = "Error";
+"OK" = "OK";
+"Reload" = "Reload";
+"Copy Link" = "Copy Link";
+"Open in Safari" = "Open in Safari";
+"Clean Cache" = "Clean Cache";

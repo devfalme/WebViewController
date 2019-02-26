@@ -1,0 +1,19 @@
+/* 
+  WebViewLocalized.strings
+  WebViewConterllor
+
+  Created by devfalme on 2019/2/26.
+  Copyright © 2019 devfalme. All rights reserved.
+*/
+"Backward" = "后退";
+"Forward" = "前进";
+"History" = "历史";
+"Home" = "主页";
+"Stop" = "停止";
+"Menu" = "菜单";
+"Error" = "错误";
+"OK" = "好";
+"Reload" = "刷新";
+"Copy Link" = "复制链接";
+"Open in Safari" = "在Safari中打开";
+"Clean Cache" = "清除缓存";
