@@ -24,7 +24,9 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "个人用"
+  spec.description  = <<-DESC
+  "个人用"
+                         DESC
 
   spec.homepage     = "https://github.com/devfalme/WebViewController"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -37,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -89,8 +91,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "WebViewConterllor/*"
-  spec.exclude_files = "WebViewConterllor/Resources"
+  spec.source_files  = "WebViewConterllor/WebViewController/**/*.{h,m}"
+  # spec.exclude_files = "WebViewConterllor/WebViewController/Resources"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -104,7 +106,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  spec.resources = "WebViewConterllor/Resources/*.png"
+  spec.resources = "WebViewConterllor/WebViewController/Resources/*.png"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -115,7 +117,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  s.frameworks = "UIKit", "Foundation", "WebKit"
+  spec.frameworks = "UIKit", "Foundation", "WebKit"
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
