@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:WebViewConterllor.xcodeproj">
+      location = "self:/Users/devfalme/Documents/WebViewController/WebViewController.xcodeproj">
    </FileRef>
 </Workspace>
